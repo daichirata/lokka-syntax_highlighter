@@ -1,7 +1,7 @@
 Lokka Syntax Highlighter
 =======================
 
-これは [Lokka](http://lokka.org/) のコードシンタックスハイライトを追加するプラグインです。
+[Lokka](http://lokka.org/) のコードシンタックスハイライトを追加するプラグインです。
 
 [SyntaxHighlighter 3.0.83](http://alexgorbatchev.com/SyntaxHighlighter/)を利用してハイライトを行っています。
 
