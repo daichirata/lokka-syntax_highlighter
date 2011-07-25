@@ -10,8 +10,3 @@ Installation
 
     $ cd APP_ROOT/public/plugins/
     $ git clone git@github.com:daic-h/lokka_syntax_highlighter.git
-
-ToDo
-------------
-
-  SyntaxのColorThemeを管理画面から選択出来るようにする
