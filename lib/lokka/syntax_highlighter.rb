@@ -3,6 +3,10 @@ module Lokka
     def self.registered(app)
       app.before do
       #  if ENV['RACK_ENV'] == 'production' && !logged_in?
+          app.get '/admin/plugins/syntax_highlighter' do
+            haml :"plugin/lokka-syntax_highlighter/views/index", :layout => :"admin/layout"
+          end
+
           content_for :header do
             haml :'plugin/lokka-syntax_highlighter/views/header', :layout => false
           end
