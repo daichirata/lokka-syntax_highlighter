@@ -8,5 +8,5 @@ It Syntax Highlights by using [SyntaxHighlighter 3.0.83](http://alexgorbatchev.c
 Installation
 ------------
 
-    $ cd APP_ROOT/public/plugins/
-    $ git clone git@github.com:daic-h/lokka_syntax_highlighter.git
+    $ cd APP_ROOT/public/plugin/
+    $ git clone git@github.com:daic-h/lokka-syntax_highlighter.git
