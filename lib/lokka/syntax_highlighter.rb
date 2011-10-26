@@ -13,8 +13,7 @@ module Lokka
 
       app.before do
         theme = Option.syntax_highlighter_theme || "Default"
-        header = []
-        header << %Q(<link type="text/css" rel="Stylesheet" href="/plugin/lokka-syntax_highlighter/views/styles/shCore.css"/>)
+        header = %Q(<link type="text/css" rel="Stylesheet" href="/plugin/lokka-syntax_highlighter/views/styles/shCore.css"/>)
         header << %Q(<link type="text/css" rel="Stylesheet" href="/plugin/lokka-syntax_highlighter/views/styles/shTheme#{theme}.css"/>)
 
         content_for :header do
