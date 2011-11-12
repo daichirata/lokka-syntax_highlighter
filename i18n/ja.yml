@@ -1,10 +1,12 @@
-syntax_highlighter: シンタックスハイライト
-syntax_highlighter_language: 対応言語
-syntax_highlighter_theme: シンタックスハイライトのテーマ
-syntax_highlighter_default: デフォルト
-syntax_highlighter_django: Django
-syntax_highlighter_eclipse: Eclipse
-syntax_highlighter_emacs: Emacs
-syntax_highlighter_fadetogrey: FadeToGrey
-syntax_highlighter_midnight: Midnight
-syntax_highlighter_rdark: RDark
+ja:
+  syntax_highlighter:
+    title: シンタックスハイライト
+    language: 対応言語
+    theme: シンタックスハイライトのテーマ
+    default: デフォルト
+    django: Django
+    eclipse: Eclipse
+    emacs: Emacs
+    fadetogrey: FadeToGrey
+    midnight: Midnight
+    rdark: RDark

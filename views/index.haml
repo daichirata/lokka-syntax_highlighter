@@ -1,28 +1,28 @@
-%h2= t.syntax_highlighter 
+%h2= t('syntax_highlighter.title')
 %form{:action => '/admin/plugins/syntax_highlighter', :method => 'post'}
   %input{:type => 'hidden', :name => '_method', :value => 'put'}
   .field
-    %label{:for => 'syntax_highlighter_theme'}= t.syntax_highlighter_theme
+    %label{:for => 'syntax_highlighter_theme'}= t('syntax_highlighter.theme')
     %br
     %select{:id => 'syntax_highlighter_theme', :name => 'syntax_highlighter_theme'}
-      %option{:value => 'Default',    :selected => Option.syntax_highlighter_theme == 'Default'}=    t.syntax_highlighter_default 
-      %option{:value => 'Django',     :selected => Option.syntax_highlighter_theme == 'Django'}=     t.syntax_highlighter_django 
-      %option{:value => 'Eclipse',    :selected => Option.syntax_highlighter_theme == 'Eclipse'}=    t.syntax_highlighter_eclipse 
-      %option{:value => 'Emacs',      :selected => Option.syntax_highlighter_theme == 'Emacs'}=      t.syntax_highlighter_emacs 
-      %option{:value => 'FadeToGrey', :selected => Option.syntax_highlighter_theme == 'FadeToGrey'}= t.syntax_highlighter_fadetogrey 
-      %option{:value => 'Midnight',   :selected => Option.syntax_highlighter_theme == 'Midnight'}=   t.syntax_highlighter_midnight 
-      %option{:value => 'RDark',      :selected => Option.syntax_highlighter_theme == 'RDark'}=      t.syntax_highlighter_rdark
+      %option{:value => 'Default',    :selected => Option.syntax_highlighter_theme == 'Default'}=    t('syntax_highlighter.default')
+      %option{:value => 'Django',     :selected => Option.syntax_highlighter_theme == 'Django'}=     t('syntax_highlighter.django')
+      %option{:value => 'Eclipse',    :selected => Option.syntax_highlighter_theme == 'Eclipse'}=    t('syntax_highlighter.eclipse')
+      %option{:value => 'Emacs',      :selected => Option.syntax_highlighter_theme == 'Emacs'}=      t('syntax_highlighter.emacs')
+      %option{:value => 'FadeToGrey', :selected => Option.syntax_highlighter_theme == 'FadeToGrey'}= t('syntax_highlighter.fadetogrey')
+      %option{:value => 'Midnight',   :selected => Option.syntax_highlighter_theme == 'Midnight'}=   t('syntax_highlighter.midnight')
+      %option{:value => 'RDark',      :selected => Option.syntax_highlighter_theme == 'RDark'}=      t('syntax_highlighter.rdark')
   .field
     %input{:type => 'submit', :value => t.edit}
 
-%h3= t.syntax_highlighter_language
+%h3= t('syntax_highlighter.language')
 %table
   %thead
-    %tr 
-      %th 言語
+    %tr
+      %th t('syntax_highlighter.language')
       %td aliases
   %tbody
-    %tr 
+    %tr
       %th AppleScript
       %td applescript
     %tr
@@ -91,6 +91,6 @@
     %tr
       %th Visual Basic
       %td vb vbnet
-    %tr 
+    %tr
       %th XML HTML
       %td xml xhtml xslt html

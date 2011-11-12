@@ -1,0 +1,12 @@
+en:
+  syntax_highlighter:
+    title: Syntax Highlighter
+    language: Correspondence language
+    theme: Syntax Highligh Theme
+    default: Default
+    django: Django
+    eclipse: Eclipse
+    emacs: Emacs
+    fadetogrey: FadeToGrey
+    midnight: Midnight
+    rdark: RDark
